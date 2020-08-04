@@ -25,10 +25,11 @@ if ( options._.length === 0 ) {
 const people = options._[0];
 
 const pizzas = howManyPizza( people, options.slicesPerPerson, options.slicesPerPizza );
+const pizzaText = ( pizzas === 1 ) ? "pizza!" : "pizzas!";
 const output = [
 	chalk.cyan( "You're gonna need at least" ),
 	chalk.white.bold( pizzas ),
-	chalk.cyan( "pizzas!" )
+	chalk.cyan( pizzaText )
 ];
 
 // console.log( `You're going to need at least ${ pizzas } pizzas!` );
