@@ -11,10 +11,10 @@
     "boxen": "^4.2.0",
     "chalk": "^4.1.0",
     "how-many-pizza": "^1.1.2",
-    "yargs": "^15.4.1"
+    "yargs": "^17.4.0"
   },
   "devDependencies": {
-    "eslint": "^7.6.0",
+    "eslint": "^8.12.0",
     "eslint-config-reverentgeek": "^3.0.0"
   },
   "bin": {
