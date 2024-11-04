@@ -14,7 +14,7 @@ A command-line tool for calculating the number of pizzas you're gonna need for y
 
 ## Requirements
 
-To use this application, you will need [Node.js](https://nodejs.org/) version 12 or higher.
+To use this application, you will need [Node.js](https://nodejs.org/) version 20 or higher.
 
 ## Installing Locally
 

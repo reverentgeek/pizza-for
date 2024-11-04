@@ -1,10 +1,9 @@
 #!/usr/bin/env node
-"use strict";
-
-const howManyPizza = require( "how-many-pizza" );
-const yargs = require( "yargs" );
-const chalk = require( "chalk" );
-const boxen = require( "boxen" );
+import yargs from "yargs/yargs";
+import { hideBin } from "yargs/helpers";
+import howManyPizza from "how-many-pizza";
+import chalk from "chalk";
+import boxen from "boxen";
 
 const boxenOptions = {
 	padding: 1,
@@ -12,7 +11,7 @@ const boxenOptions = {
 	borderStyle: "round"
 };
 
-const options = yargs
+const options = yargs( hideBin( process.argv ) )
 	.usage( "$0 <number-of-people> [--slices-per-person=3] [--slices-per-pizza=8]" )
 	.demand( 1 )
 	.default( "slices-per-pizza", 8 )
@@ -31,7 +30,5 @@ const output = [
 	chalk.white.bold( pizzas ),
 	chalk.cyan( pizzaText )
 ];
-
-// console.log( `You're going to need at least ${ pizzas } pizzas!` );
 
 console.log( chalk.green( boxen( output.join( " " ), boxenOptions ) ) );
