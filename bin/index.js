@@ -16,7 +16,7 @@ const options = yargs( hideBin( process.argv ) )
 	.demand( 1 )
 	.default( "slices-per-pizza", 8 )
 	.default( "slices-per-person", 3 )
-	.argv;
+	.parse();
 
 if ( options._.length === 0 ) {
 	console.log( "number of people eating pizza is required!" );
