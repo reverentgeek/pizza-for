@@ -1,6 +1,6 @@
 {
 	"name": "pizza-for",
-	"version": "2.0.1",
+	"version": "2.0.2",
 	"description": "",
 	"main": "bin/index.js",
 	"type": "module",
@@ -19,10 +19,10 @@
 		"eslint-config-reverentgeek": "^5.1.0"
 	},
 	"bin": {
-		"pizza-for": "./bin/index.js"
+		"pizza-for": "bin/index.js"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/reverentgeek/pizza-for.git"
+		"url": "git+https://github.com/reverentgeek/pizza-for.git"
 	}
 }
