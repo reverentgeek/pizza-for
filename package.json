@@ -1,6 +1,6 @@
 {
 	"name": "pizza-for",
-	"version": "2.0.3",
+	"version": "2.0.4",
 	"description": "",
 	"main": "bin/index.js",
 	"type": "module",
@@ -16,7 +16,7 @@
 	},
 	"devDependencies": {
 		"eslint": "^9.14.0",
-		"eslint-config-reverentgeek": "^5.1.0"
+		"eslint-config-reverentgeek": "^6.0.2"
 	},
 	"bin": {
 		"pizza-for": "bin/index.js"
