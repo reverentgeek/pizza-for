@@ -1,6 +1,6 @@
 {
 	"name": "pizza-for",
-	"version": "2.0.4",
+	"version": "2.0.5",
 	"description": "",
 	"main": "bin/index.js",
 	"type": "module",
@@ -10,13 +10,13 @@
 	"license": "MIT",
 	"dependencies": {
 		"boxen": "^8.0.1",
-		"chalk": "^5.3.0",
+		"chalk": "^5.6.2",
 		"how-many-pizza": "^1.1.2",
 		"yargs": "^18.0.0"
 	},
 	"devDependencies": {
-		"eslint": "^9.14.0",
-		"eslint-config-reverentgeek": "^6.0.2"
+		"eslint": "^9.36.0",
+		"eslint-config-reverentgeek": "^6.2.0"
 	},
 	"bin": {
 		"pizza-for": "bin/index.js"
