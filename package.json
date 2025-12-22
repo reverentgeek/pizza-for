@@ -15,8 +15,8 @@
 		"yargs": "^18.0.0"
 	},
 	"devDependencies": {
-		"eslint": "^9.39.1",
-		"eslint-config-reverentgeek": "^6.3.5"
+		"eslint": "^9.39.2",
+		"eslint-config-reverentgeek": "^6.3.6"
 	},
 	"bin": {
 		"pizza-for": "bin/index.js"
