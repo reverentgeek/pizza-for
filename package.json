@@ -16,7 +16,7 @@
 	},
 	"devDependencies": {
 		"eslint": "^9.39.2",
-		"eslint-config-reverentgeek": "^6.3.7"
+		"eslint-config-reverentgeek": "^6.3.8"
 	},
 	"bin": {
 		"pizza-for": "bin/index.js"
