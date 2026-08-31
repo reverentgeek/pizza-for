@@ -1,6 +1,6 @@
 {
 	"name": "pizza-for",
-	"version": "2.0.32",
+	"version": "2.0.33",
 	"description": "",
 	"main": "bin/index.js",
 	"type": "module",
