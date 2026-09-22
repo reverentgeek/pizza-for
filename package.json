@@ -12,7 +12,7 @@
 		"boxen": "^8.0.1",
 		"chalk": "^6.0.0",
 		"how-many-pizza": "^1.1.2",
-		"yargs": "^18.1.0"
+		"yargs": "^18.2.0"
 	},
 	"devDependencies": {
 		"eslint": "^10.11.0",
